@@ -1,7 +1,6 @@
 header{
     display: flex;
     min-height: 80px;
-    position: fixed;
     width: 100%;
     align-items: center;
 }
@@ -39,4 +38,37 @@ header{
     border: none;
     outline: none;
     cursor: pointer;
+  }
+
+  /* section1 */
+.section1Info{
+    width: 100%;
+    text-align: center;
+    margin-top: 130px;
+}
+.section1Info h5{
+    width: 74px;
+    height: 22px;
+    border-radius: 36px;
+    background-color: #dcfce7;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #22c55e;
+    margin: 0 auto;
+    margin-bottom: 16px;
+} 
+.section1Info h2{
+    color: #2a3342;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700px;
+    margin-bottom: 16px;
+}
+.section1Info p {
+    color: #556987;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 auto;
+    width: 920px;
   }
